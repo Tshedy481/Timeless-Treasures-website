@@ -1,0 +1,246 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdf6f0;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+.garland {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  display: block;
+}
+
+header, footer {
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  background-color: #fefefe;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1608889175785-0c3f3e6f3e3e?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.cta {
+  margin-top: 20px;
+  font-size: 1.2em;
+  background-color: #c62828;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background-color: #b71c1c;
+}
+
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 10px 0 0;
+  font-size: 0.9em;
+}
+
+
+header {
+  background-color: #8b0000;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  position: relative;
+}
+.header-decor {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.header-decor img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.corner-decor {
+  position: absolute;
+  width: 120px;
+  z-index: 10;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-image:
+    linear-gradient(to bottom, #444 2px, transparent 2px),
+    linear-gradient(to bottom, #444 2px, transparent 2px),
+    linear-gradient(to bottom, #444 2px, transparent 2px);
+  background-repeat: repeat-x;
+  background-size: 60px 100px;
+  pointer-events: none;
+}
+
+nav a {
+  margin: 0 1em;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner {
+  background-color: #ffcc00;
+  color: #8b0000;
+  padding: 0.5em;
+  font-size: 1.2em;
+  margin-top: 1em;
+  border-radius: 5px;
+}
+
+main {
+  padding: 2em;
+}
+
+ul {
+  list-style-type: square;
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.product {
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+}
+.cart-actions {
+  margin-top: 2em;
+  display: flex;
+  gap: 1em;
+}
+
+.cart-actions button {
+  background-color: #8b0000;
+  color: white;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.price-ribbon {
+  background: linear-gradient(to right, #ff0000, #cc0000);
+  color: white;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  font-size: 1em;
+  border-radius: 20px;
+  display: inline-block;
+  position: relative;
+  margin: 0.5em 0;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.christmas-button {
+  background-color: #8b0000;
+  color: white;
+  padding: 0.5em 1em;
+  border: 4px dashed #00ff00;
+  border-image: url('lights-border.png') 30 round; /* Optional: use a festive border image */
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+.gift-box {
+  border: 4px solid #d4af37; /* gold */
+  padding: 1em;
+  background-color: #fff8f0;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.gift-box img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 8px;
+  margin-bottom: 0.5em;
+}
+
+footer {
+  background-color: #8b0000;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-garland {
+  width: 100%;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.footer-garland img {
+  max-width: 100%;
+  height: auto;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+form button {
+  background-color: #8b0000;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact - Timeless Treasures</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="christmas.html">Christmas Specials</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+    <main class="container" style="max-width:600px; margin:auto; padding-top:24px; padding-bottom:32px;">
+    <h2 style="text-align:center; margin-bottom:16px;">Contact Us</h2>
+
+    <section>
+  <h2>We'd love to hear from you!</h2>
+      <form id="contact-form">
+        <label>Name: <input type="text" name="name" required /></label><br />
+        <label>Email: <input type="email" name="email" required /></label><br />
+        <label>Message:<br /><textarea name="message" required></textarea></label><br />
+        <button type="submit">Send</button>
+      </form>
+      <p id="confirmation" style="display:none; color:green; font-weight:bold;">✅ Message delivered!</p>
+    </section>    
+ <section>
+      <h3>Previous Messages</h3>
+      <ul id="message-history"></ul>
+    </section>
+    </section>
+  </main>
+
+   <footer class="site-footer container">
+    <div>© 2025 Timeless Treasures|All Rights Reserved.</div>
+    <div>Owner: Timeless Treasures | Email: timelesstreasures@gmail.com</div>
+  </footer>
+</body>
+</html>
